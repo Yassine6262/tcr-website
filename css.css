@@ -25,10 +25,10 @@ nav ul {
     width:6vw ; height: 50px;
     float: left;
     margin-left: 30px;
-  }
-  div li{
-    float: right;
-  }
+    }
+    div li{
+      float: right;
+    }
   .bar li  {
     background-color: #0f301a;
   }
@@ -79,4 +79,20 @@ footer {
   margin-top:-200px ;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  nav {
+      display: flex; 
+      justify-content: center;
+      
+  }
+  h1{
+    justify-content: center;
+  }
+  p {
+    align-items: center;
+  }
+  h2 {
+    align-items: center;
+  }
+  }
 
